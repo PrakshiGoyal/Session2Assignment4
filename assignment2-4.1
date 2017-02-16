@@ -1,5 +1,12 @@
 Hadoop 
-Hadoop was released as an open source project through Apache, as a result, it grew incredibly quickly in terms of related projects, ecosystem, and adoption.Hadoop is about parallel processing - splitting a job across dozens or hundreds of computers so they can share the load and get the job done faster.This is often done by storing the data in chunks that are distributed across many computers.
- Hadoop is actually a collection of such tools. HDFS is a distributed file system, much like the organization of files on your computer except that these files are spread out across multiple computers and duplicated or, more likely, triplicated - to prevent data loss in a disaster. MapReduce/Tez/Spark are for processing jobs across multiple computers and Yarn dispatches those jobs. Hive is a SQL (-like) database system for accessing data stored in HDFS in certain row-column file formats. The list of software tools goes on and on and is known as the Hadoop Ecosystem.
- 
- The amount of data is not the important part, but the information gathered from that data is key. Collecting and analyzing Big Data gives organizations enhanced insight, decision making, and process automation.Hadoop is an open source, Java-based programming framework that supports the processing and storage of extremely large data sets in a distributed computing environment.
+
+Hadoop is an open source,java based framework that allows the storage and processing of large collection of data.
+Hadoop consists of the following:
+
+HDFS:
+Hadoop distributed file system is the solution to the storage problem that nowadays data faces. It stores the data in distributed manner on commodity hardwares that interact with the master node to obtain there commands.The master node is called NameNode and the slave node is called DataNode.
+
+Map/Reduce
+Map/Reduce algorithm consists of two processes map and reduce that is used to process humungus amounts of data to generate patterns.
+It is a software framework.It too works on master slave architecture.The master node is called Rsource Manager and the slave nodes are called the manager nodes that are commodity machines used to process data.
+
